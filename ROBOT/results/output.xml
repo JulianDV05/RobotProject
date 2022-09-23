@@ -1,0 +1,122 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<robot generator="Robot 5.0.1 (Python 3.10.6 on win32)" generated="20220922 17:02:26.264" rpa="false" schemaversion="3">
+<suite id="s1" name="ROBOT" source="C:\Users\juliandavid.valencia\Desktop\ROBOT">
+<suite id="s1-s1" name="RobotProject1" source="C:\Users\juliandavid.valencia\Desktop\ROBOT\RobotProject1">
+<suite id="s1-s1-s1" name="Test" source="C:\Users\juliandavid.valencia\Desktop\ROBOT\RobotProject1\test">
+<suite id="s1-s1-s1-s1" name="TestSuite1" source="C:\Users\juliandavid.valencia\Desktop\ROBOT\RobotProject1\test\TestSuite1.robot">
+<kw name="Log" library="BuiltIn" type="SETUP">
+<arg>I am inside Test suite Setup</arg>
+<doc>Logs the given message with the given level.</doc>
+<msg timestamp="20220922 17:02:26.713" level="INFO">I am inside Test suite Setup</msg>
+<status status="PASS" starttime="20220922 17:02:26.712" endtime="20220922 17:02:26.714"/>
+</kw>
+<test id="s1-s1-s1-s1-t1" name="MyFirstTest" line="12">
+<kw name="Log" library="BuiltIn" type="SETUP">
+<arg>I am inside Test Setup</arg>
+<doc>Logs the given message with the given level.</doc>
+<msg timestamp="20220922 17:02:26.718" level="INFO">I am inside Test Setup</msg>
+<status status="PASS" starttime="20220922 17:02:26.717" endtime="20220922 17:02:26.719"/>
+</kw>
+<kw name="Log" library="BuiltIn">
+<arg>Hello World...</arg>
+<doc>Logs the given message with the given level.</doc>
+<msg timestamp="20220922 17:02:26.722" level="INFO">Hello World...</msg>
+<status status="PASS" starttime="20220922 17:02:26.720" endtime="20220922 17:02:26.738"/>
+</kw>
+<kw name="Log" library="BuiltIn" type="TEARDOWN">
+<arg>I am inside Test Teardown</arg>
+<doc>Logs the given message with the given level.</doc>
+<msg timestamp="20220922 17:02:26.739" level="INFO">I am inside Test Teardown</msg>
+<status status="PASS" starttime="20220922 17:02:26.738" endtime="20220922 17:02:26.741"/>
+</kw>
+<tag>smoke</tag>
+<status status="PASS" starttime="20220922 17:02:26.715" endtime="20220922 17:02:26.741"/>
+</test>
+<test id="s1-s1-s1-s1-t2" name="MySecondTest" line="16">
+<kw name="Log" library="BuiltIn" type="SETUP">
+<arg>I am inside Test Setup</arg>
+<doc>Logs the given message with the given level.</doc>
+<msg timestamp="20220922 17:02:26.748" level="INFO">I am inside Test Setup</msg>
+<status status="PASS" starttime="20220922 17:02:26.748" endtime="20220922 17:02:26.751"/>
+</kw>
+<kw name="Log" library="BuiltIn">
+<arg>I am inside 2nd test</arg>
+<doc>Logs the given message with the given level.</doc>
+<msg timestamp="20220922 17:02:26.752" level="INFO">I am inside 2nd test</msg>
+<status status="PASS" starttime="20220922 17:02:26.752" endtime="20220922 17:02:26.756"/>
+</kw>
+<kw name="Set Tags" library="BuiltIn">
+<arg>regression1</arg>
+<doc>Adds given ``tags`` for the current test or all tests in a suite.</doc>
+<msg timestamp="20220922 17:02:26.758" level="INFO">Set tag 'regression1'.</msg>
+<status status="PASS" starttime="20220922 17:02:26.757" endtime="20220922 17:02:26.760"/>
+</kw>
+<kw name="Remove Tags" library="BuiltIn">
+<arg>regression1</arg>
+<doc>Removes given ``tags`` from the current test or all tests in a suite.</doc>
+<msg timestamp="20220922 17:02:26.763" level="INFO">Removed tag 'regression1'.</msg>
+<status status="PASS" starttime="20220922 17:02:26.762" endtime="20220922 17:02:26.765"/>
+</kw>
+<kw name="Log" library="BuiltIn" type="TEARDOWN">
+<arg>I am inside Test Teardown</arg>
+<doc>Logs the given message with the given level.</doc>
+<msg timestamp="20220922 17:02:26.766" level="INFO">I am inside Test Teardown</msg>
+<status status="PASS" starttime="20220922 17:02:26.765" endtime="20220922 17:02:26.766"/>
+</kw>
+<tag>sanity</tag>
+<status status="PASS" starttime="20220922 17:02:26.746" endtime="20220922 17:02:26.771"/>
+</test>
+<test id="s1-s1-s1-s1-t3" name="MyThirdTest" line="21">
+<kw name="Log" library="BuiltIn" type="SETUP">
+<arg>I am inside Test Setup</arg>
+<doc>Logs the given message with the given level.</doc>
+<msg timestamp="20220922 17:02:26.778" level="INFO">I am inside Test Setup</msg>
+<status status="PASS" starttime="20220922 17:02:26.777" endtime="20220922 17:02:26.780"/>
+</kw>
+<kw name="Log" library="BuiltIn">
+<arg>I am inside 3rd test</arg>
+<doc>Logs the given message with the given level.</doc>
+<msg timestamp="20220922 17:02:26.782" level="INFO">I am inside 3rd test</msg>
+<status status="PASS" starttime="20220922 17:02:26.781" endtime="20220922 17:02:26.784"/>
+</kw>
+<kw name="Log" library="BuiltIn" type="TEARDOWN">
+<arg>I am inside Test Teardown</arg>
+<doc>Logs the given message with the given level.</doc>
+<msg timestamp="20220922 17:02:26.787" level="INFO">I am inside Test Teardown</msg>
+<status status="PASS" starttime="20220922 17:02:26.784" endtime="20220922 17:02:26.788"/>
+</kw>
+<tag>sanity</tag>
+<status status="PASS" starttime="20220922 17:02:26.773" endtime="20220922 17:02:26.789"/>
+</test>
+<kw name="Log" library="BuiltIn" type="TEARDOWN">
+<arg>I am inside TestSuite Teardown</arg>
+<doc>Logs the given message with the given level.</doc>
+<msg timestamp="20220922 17:02:26.796" level="INFO">I am inside TestSuite Teardown</msg>
+<status status="PASS" starttime="20220922 17:02:26.795" endtime="20220922 17:02:26.798"/>
+</kw>
+<status status="PASS" starttime="20220922 17:02:26.320" endtime="20220922 17:02:26.798"/>
+</suite>
+<status status="PASS" starttime="20220922 17:02:26.315" endtime="20220922 17:02:26.804"/>
+</suite>
+<status status="PASS" starttime="20220922 17:02:26.309" endtime="20220922 17:02:26.809"/>
+</suite>
+<status status="PASS" starttime="20220922 17:02:26.272" endtime="20220922 17:02:26.814"/>
+</suite>
+<statistics>
+<total>
+<stat pass="3" fail="0" skip="0">All Tests</stat>
+</total>
+<tag>
+<stat pass="2" fail="0" skip="0">sanity</stat>
+<stat pass="1" fail="0" skip="0">smoke</stat>
+</tag>
+<suite>
+<stat pass="3" fail="0" skip="0" id="s1" name="ROBOT">ROBOT</stat>
+<stat pass="3" fail="0" skip="0" id="s1-s1" name="RobotProject1">ROBOT.RobotProject1</stat>
+<stat pass="3" fail="0" skip="0" id="s1-s1-s1" name="Test">ROBOT.RobotProject1.Test</stat>
+<stat pass="3" fail="0" skip="0" id="s1-s1-s1-s1" name="TestSuite1">ROBOT.RobotProject1.Test.TestSuite1</stat>
+</suite>
+</statistics>
+<errors>
+</errors>
+</robot>
